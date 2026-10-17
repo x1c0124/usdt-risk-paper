@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  ES_up   R-squared:                       0.085
+Model:                            OLS   Adj. R-squared:                  0.083
+Method:                 Least Squares   F-statistic:                     11.96
+Date:                Sun, 03 May 2026   Prob (F-statistic):           9.88e-08
+Time:                        01:29:48   Log-Likelihood:                 5923.8
+No. Observations:                1405   AIC:                        -1.184e+04
+Df Residuals:                    1401   BIC:                        -1.182e+04
+Df Model:                           3                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0014      0.001      1.199      0.230      -0.001       0.004
+Stress         0.0002      0.000      0.401      0.688      -0.001       0.001
+VIX         8.717e-05   5.47e-05      1.593      0.111   -2.01e-05       0.000
+SOFR          -0.0003   7.56e-05     -4.397      0.000      -0.000      -0.000
+==============================================================================
+Omnibus:                     1027.948   Durbin-Watson:                   0.041
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            15790.504
+Skew:                           3.334   Prob(JB):                         0.00
+Kurtosis:                      18.009   Cond. No.                         91.4
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 5 lags and without small sample correction

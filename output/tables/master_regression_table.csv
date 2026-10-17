@@ -1,0 +1,39 @@
+spec,paper_section,n_obs,variable,coef,std_err,z,p_value,ci_low,ci_high,sig
+DualRegime_ES_down,5.4,1405,const,0.0037,0.001,6.579,0.0,0.003,0.005,***
+DualRegime_ES_down,5.4,1405,CryptoStress,0.0026,0.001,2.253,0.024,0.0,0.005,**
+DualRegime_ES_down,5.4,1405,MacroStress,-0.0016,0.001,-2.47,0.014,-0.003,-0.0,**
+DualRegime_ES_down,5.4,1405,SOFR,-0.0003,9.44e-05,-3.236,0.001,-0.0,-0.0,***
+DualRegime_ES_up,5.4,1405,const,0.0031,0.0,9.01,0.0,0.002,0.004,***
+DualRegime_ES_up,5.4,1405,CryptoStress,0.0002,0.0,0.531,0.595,-0.001,0.001,
+DualRegime_ES_up,5.4,1405,MacroStress,0.0022,0.001,1.605,0.108,-0.0,0.005,
+DualRegime_ES_up,5.4,1405,SOFR,-0.0004,7.01e-05,-5.614,0.0,-0.001,-0.0,***
+Extended_ES_down,5.5,1405,const,0.0384,0.009,4.507,0.0,0.022,0.055,***
+Extended_ES_down,5.5,1405,CryptoStress,0.0023,0.001,2.092,0.036,0.0,0.004,**
+Extended_ES_down,5.5,1405,MacroStress,-0.0013,0.001,-1.611,0.107,-0.003,0.0,
+Extended_ES_down,5.5,1405,SOFR,0.0005,0.0,2.731,0.006,0.0,0.001,***
+Extended_ES_down,5.5,1405,DXY,0.0002,8.92e-05,1.783,0.075,-1.58e-05,0.0,*
+Extended_ES_down,5.5,1405,EM_FX,-0.0005,8.31e-05,-5.882,0.0,-0.001,-0.0,***
+Extended_ES_down,5.5,1405,CREDIT_SPREAD,0.0032,0.001,3.862,0.0,0.002,0.005,***
+Extended_ES_up,5.5,2008,const,0.0352,0.007,4.811,0.0,0.021,0.05,***
+Extended_ES_up,5.5,2008,CryptoStress,0.0003,0.0,0.939,0.348,-0.0,0.001,
+Extended_ES_up,5.5,2008,MacroStress,-8.055e-05,0.001,-0.139,0.889,-0.001,0.001,
+Extended_ES_up,5.5,2008,SOFR,0.0009,0.0,4.998,0.0,0.001,0.001,***
+Extended_ES_up,5.5,2008,DXY,-3.148e-05,7.23e-05,-0.435,0.663,-0.0,0.0,
+Extended_ES_up,5.5,2008,EM_FX,-0.0003,6.33e-05,-5.471,0.0,-0.0,-0.0,***
+Extended_ES_up,5.5,2008,CREDIT_SPREAD,0.0064,0.001,6.823,0.0,0.005,0.008,***
+Extended_Standardized_ES,5.5,1405,const,0.0034,0.0,8.567,0.0,0.003,0.004,***
+Extended_Standardized_ES,5.5,1405,CryptoStress,0.0023,0.001,2.092,0.036,0.0,0.004,**
+Extended_Standardized_ES,5.5,1405,MacroStress,-0.0013,0.001,-1.611,0.107,-0.003,0.0,
+Extended_Standardized_ES,5.5,1405,SOFR_z,0.001,0.0,2.731,0.006,0.0,0.002,***
+Extended_Standardized_ES,5.5,1405,DXY_z,0.0008,0.0,1.783,0.075,-7.74e-05,0.002,*
+Extended_Standardized_ES,5.5,1405,EM_FX_z,-0.0028,0.0,-5.882,0.0,-0.004,-0.002,***
+Extended_Standardized_ES,5.5,1405,CREDIT_SPREAD_z,0.0013,0.0,3.862,0.0,0.001,0.002,***
+Extended_TED_subsample,App C,621,const,-0.008,0.014,-0.578,0.564,-0.035,0.019,
+Extended_TED_subsample,App C,621,CryptoStress,0.0028,0.001,2.202,0.028,0.0,0.005,**
+Extended_TED_subsample,App C,621,MacroStress,-0.0007,0.001,-0.499,0.618,-0.003,0.002,
+Extended_TED_subsample,App C,621,SOFR,0.0073,0.002,4.0,0.0,0.004,0.011,***
+Extended_TED_subsample,App C,621,DXY,-0.0023,0.001,-2.548,0.011,-0.004,-0.001,**
+Extended_TED_subsample,App C,621,EM_FX,0.0021,0.001,2.564,0.01,0.001,0.004,**
+Extended_TED_subsample,App C,621,TED,0.0015,0.002,0.753,0.452,-0.002,0.005,
+Robustness_BTC_vol,App E,2330,const,0.0047,0.001,7.617,0.0,0.003,0.006,***
+Robustness_BTC_vol,App E,2330,Stress_vol,0.003,0.001,2.418,0.016,0.001,0.005,**

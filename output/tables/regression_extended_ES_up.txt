@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  ES_up   R-squared:                       0.340
+Model:                            OLS   Adj. R-squared:                  0.338
+Method:                 Least Squares   F-statistic:                     13.76
+Date:                Sun, 03 May 2026   Prob (F-statistic):           2.24e-15
+Time:                        01:29:50   Log-Likelihood:                 8588.5
+No. Observations:                2008   AIC:                        -1.716e+04
+Df Residuals:                    2001   BIC:                        -1.712e+04
+Df Model:                           6                                         
+Covariance Type:                  HAC                                         
+=================================================================================
+                    coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             0.0352      0.007      4.811      0.000       0.021       0.050
+CryptoStress      0.0003      0.000      0.939      0.348      -0.000       0.001
+MacroStress   -8.055e-05      0.001     -0.139      0.889      -0.001       0.001
+SOFR              0.0009      0.000      4.998      0.000       0.001       0.001
+DXY           -3.148e-05   7.23e-05     -0.435      0.663      -0.000       0.000
+EM_FX            -0.0003   6.33e-05     -5.471      0.000      -0.000      -0.000
+CREDIT_SPREAD     0.0064      0.001      6.823      0.000       0.005       0.008
+==============================================================================
+Omnibus:                     1499.220   Durbin-Watson:                   0.032
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            27807.158
+Skew:                           3.397   Prob(JB):                         0.00
+Kurtosis:                      19.917   Cond. No.                     6.40e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 5 lags and without small sample correction
+[2] The condition number is large, 6.4e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
