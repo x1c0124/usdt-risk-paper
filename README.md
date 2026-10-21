@@ -38,3 +38,7 @@ make all
 ```
 
 `make all` runs the full analysis, the event study and the table export from the CSVs in `data/`. To refresh the data, set `FRED_API_KEY` and run `make fetch` (USDT and BTC prices come from CryptoCompare, macro series from FRED).
+
+## License
+
+MIT. See [LICENSE](LICENSE).
